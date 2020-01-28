@@ -2,7 +2,7 @@
 
 ## Set Up
 - $ rails new hello_world
-- $ bundler add react-rails
+- $ bundle add react-rails
 - $ bundle install
 - $ rails webpacker:install
 - $ rails webpacker:install:react
@@ -15,7 +15,7 @@
 
 ## Route and Controller
 - $ rails g controller Pages
-- add a route to *config/routes.rb*
+- add a route to *config/routes.rb* root to: "pages#index"
 
 ## View
 - add a file to *app/views/pages* index.html.erb
